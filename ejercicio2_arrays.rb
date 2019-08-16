@@ -10,8 +10,9 @@ a.shift
 
 #3
 a = [1,2,3,9,1,4,5,2,3,6,6]
-a.length
-a.delete_at 5
+
+a.delete_at a.length/2
+print a
 
 #4
 a = [1,2,3,9,1,4,5,2,3,6,6]
